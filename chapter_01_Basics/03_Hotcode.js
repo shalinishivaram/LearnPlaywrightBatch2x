@@ -1,5 +1,8 @@
-console.log("Hello");
+console.log("Hello"); // no need for optimization 
 
+
+
+//Needs optimization as it runs the loop multiple times
 function add(a,b) {
     return a+b;
 }
