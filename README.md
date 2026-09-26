@@ -24,7 +24,8 @@ chapter_02__Javascript_Concepts/
 ├── 14. Hoisting_with_function.js    # Hoisting of var inside a function
 ├── 15.Hoisting_from_let.js      # let hoisting and the Temporal Dead Zone (TDZ)
 ├── 16. Const_Hoisting.js        # const hoisting and the Temporal Dead Zone (TDZ)
-└── 17. Literals.js               # String, number, boolean, array, object, null, undefined and template literals
+├── 17. Literals.js               # String, number, boolean, array, object, null, undefined and template literals
+└── 18. Operators.js              # Cheat sheet of all operator types grouped in an object
 ```
 
 ## Prerequisites
@@ -56,3 +57,4 @@ node chapter_01_Basics/01_Basics.js
 - Temporal Dead Zone (TDZ) for `let` and `const` — accessing them before declaration throws a `ReferenceError`
 - Literals in JavaScript — string, number, boolean, array, object, `null`, `undefined` and template literals
 - `undefined` vs `null` — meaning, `typeof` behaviour, and why `===` is preferred
+- Operators cheat sheet — arithmetic, comparison, logical, assignment, bitwise, unary and misc operators
