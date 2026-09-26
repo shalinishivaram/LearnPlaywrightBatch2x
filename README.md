@@ -26,6 +26,18 @@ chapter_02__Javascript_Concepts/
 ├── 16. Const_Hoisting.js        # const hoisting and the Temporal Dead Zone (TDZ)
 ├── 17. Literals.js               # String, number, boolean, array, object, null, undefined and template literals
 └── 18. Operators.js              # Cheat sheet of all operator types grouped in an object
+
+chapter_03_Operators/
+├── 18. Types_of_Operators.js  # Operator cheat sheet grouped by category
+├── 19. Arithmetic_OP.js       # +, -, *, /, %, **
+├── 20. Assignment_OP.js       # = and compound assignment (+=, -=, *=, /=, %=)
+├── 21. Comparison_OP.js       # >, <, >=, <=, ==, ===, !=, !== and loose vs strict coercion
+├── 22. Logical_OP.js          # &&, ||, !
+├── 23. String_Con_OP.js       # String concatenation with + and +=
+├── 24. Ternary_OP.js          # Placeholder for the conditional (ternary) operator
+├── 25. typeOf_OP.js           # Placeholder for the typeof operator
+├── 26. Nullish_OP.js          # Placeholder for the nullish coalescing operator
+└── 27. Incr_decr_OP.js        # Placeholder for increment and decrement operators
 ```
 
 ## Prerequisites
@@ -58,3 +70,12 @@ node chapter_01_Basics/01_Basics.js
 - Literals in JavaScript — string, number, boolean, array, object, `null`, `undefined` and template literals
 - `undefined` vs `null` — meaning, `typeof` behaviour, and why `===` is preferred
 - Operators cheat sheet — arithmetic, comparison, logical, assignment, bitwise, unary and misc operators
+
+### Chapter 03 – Operators
+- Arithmetic operators (`+`, `-`, `*`, `/`, `%`, `**`)
+- Assignment operators (`=`) and compound assignment (`+=`, `-=`, `*=`, `/=`, `%=`)
+- Comparison operators (`>`, `<`, `>=`, `<=`, `==`, `===`, `!=`, `!==`)
+- Loose vs strict equality and how JavaScript coerces types (`0 == ""` is `true`, `0 === ""` is `false`)
+- `null == undefined` is `true` but `null === undefined` is `false`
+- Logical operators (`&&`, `||`, `!`)
+- String concatenation using `+` and `+=`
